@@ -1,0 +1,14 @@
+E/16/319
+Rathnayake R.P.V.N
+CO324-Lab 01
+
+a.the code is attached as "ex1.py"
+
+b.sorted(student_list, key= lambda s:len(s.registered_courses))
+	the code also attached as "ex2.py"
+
+3.a.The code is attached as "ex3.py"
+  
+  b.We cant use a list as the key of a dictionary. Becuase if we uses a list as the key and if that lised wich was use as the key change it may be affect the hash value of the list and then the list would be goes to wrong place in the dictionary. that may make errors.
+
+4.a,b. codes are in the "ex4.py" file
