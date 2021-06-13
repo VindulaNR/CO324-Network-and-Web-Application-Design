@@ -1,0 +1,33 @@
+
+
+01) a. 200
+
+	b. Apache/2.4.35 (FreeBSD) OpenSSL/1.0.1s-freebsd PHP/5.6.38
+
+	c. LENGTH  : 54108 bytes
+
+	d. <class 'bytes'>
+
+	e.becuase the body data of the url request transmil as bytes
+
+	f.error massage "urllib.error.HTTPError: HTTP Error 404: Not Found" apear
+	  eroor massege "urllib.error.URLError: <urlopen error [Errno -2] Name or service not known>" will apear
+
+	g.code is done in the ex1.py
+
+	h.By .decode("utf-8") it give the corresponding tamil letters relavant to the unicodes.
+
+02) i.By JSON option it gives a easily readable output for the body. it give nice structured output
+
+	j.Done in the ex2.py
+
+	k.URL encoding means replacing a character in the URL with one or more haracter triplets that consist of the percent character. 
+		IT is neede because some characters like "&" are using in the ur expression for differant purpose there for we cant use that character.
+
+	i.with request.urlopen("https://duckduckgo.com/?q=වින්දුල") as query:
+		headers = query.headers.items()
+		body = query.read() 
+
+03) 1.
+
+    2. done as ex4.py
